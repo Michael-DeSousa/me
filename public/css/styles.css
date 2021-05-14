@@ -1,0 +1,150 @@
+/* FORMAT
+
+item {
+    size + positioning
+
+    font properties
+
+    colors
+}
+
+Each subsection is in alphabetical order */
+
+
+body {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+
+    background-color: #dbe2ef;
+    color: #112d4e;
+}
+
+footer {
+    padding: 2rem;
+
+    text-align: center;
+
+    background-color: #3f72af;
+    box-shadow: 0 0 1rem 0 rgba(0,0,0,0.5);
+}
+
+footer a {
+    padding: 0.5rem 1rem;
+
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-decoration: none;
+
+    color: #112d4e;
+}
+
+footer a:hover {
+    color: #f9f7f7;
+}
+
+nav {
+    overflow: hidden;
+    margin-bottom: 5rem;
+    padding: 1rem;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-align: left;
+
+    background-color: #3f72af;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+    margin: 0.75rem 0;
+    padding: 0.5rem 1rem;
+
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-align: center;
+    text-decoration: none;
+
+    color: #112d4e;
+}
+
+nav a:hover {
+    color: #f9f7f7;
+}
+
+.bio {
+    margin: auto;
+    width: 60%;
+
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    line-height: 2;
+}
+
+.greeting {
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+
+    color: #112d4e;
+}
+
+.navLeft {
+    float: left;
+
+    text-align: left;
+}
+
+.navRight {
+    float: right;
+}
+
+.jobTitle {
+    margin: 0;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+    
+    color: #f9f7f7;
+}
+
+.myName {
+    margin: 0;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 1.75rem;
+    font-weight: bold;
+    
+    color: #112d4e;
+}
+
+.navLinks {
+    list-style-type: none;
+}
+
+.navLinks li {
+    float: left;
+}
+
+#copyright {
+    display: block;
+    margin: 1.5rem auto 0 auto;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+
+    color: #f9f7f7;
+}
+
+#selfie {
+    display: block;
+    margin: auto;
+    border-radius: 100%;
+    width: 10%;
+    max-width: 20rem;
+    max-height: 20rem;
+}
