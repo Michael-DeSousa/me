@@ -1,7 +1,8 @@
-import React from "react"
+import React from "react";
 
 function Navbar() {
-    return <nav>
+    return (
+        <nav>
             <div className="navLeft">
                 <h1 className="myName">Michael De Sousa</h1>
                 <h3 className="jobTitle">Software Engineer</h3>
@@ -15,7 +16,8 @@ function Navbar() {
                     <li><a href="#Contact">Contact Me</a></li>
                 </ul> 
             </div> 
-    </nav>;
+        </nav>
+    );
 }
 
 /* TODO: USE PROPS FOR THE LINKS */
