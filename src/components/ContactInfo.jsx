@@ -1,13 +1,16 @@
 import React from "react";
 
+import ClickIcon from "./ClickIcon";
+import Email from "./Email";
+
 function ContactInfo() {
     return (
-        <div id="contactInfo">
-                <a className="email" href="mailto:michael.desous@gmail.com">michael.desous@gmail.com</a>
+        <div className="contactInfo">
+                <Email email="michael.desous@gmail.com" />
                 <div className="contactIcons">
-                    <a href="https://github.com/Michael-DeSousa"><img className="contactIcon" src="./images/github.png" alt="Github Logo"/></a>
-                    <a href="https://www.linkedin.com/in/michaeldesous"><img className="contactIcon" src="./images/linkedin.png" alt="LinkedIn Logo"/></a>
-                    <a href="https://www.youtube.com/channel/UClsx7TW67_bn4qIA1TevRsg"><img className="contactIcon" src="./images/youtube.png" alt="LinkedIn Logo"/></a>
+                    <ClickIcon link="https://github.com/Michael-DeSousa" icon="./images/github.png" alt="Github Logo" />
+                    <ClickIcon link="https://www.linkedin.com/in/michaeldesous" icon="./images/linkedin.png" alt="LinkedIn Logo" />
+                    <ClickIcon link="https://www.youtube.com/channel/UClsx7TW67_bn4qIA1TevRsg" icon="./images/youtube.png" alt="LinkedIn Logo" />
                 </div>
         </div>
     );

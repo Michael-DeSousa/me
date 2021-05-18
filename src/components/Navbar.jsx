@@ -1,25 +1,24 @@
 import React from "react";
 
+import Link from "./Link";
+import Logo from "./Logo";
+
 function Navbar() {
     return (
         <nav>
             <div className="navLeft">
-                <h1 className="myName">Michael De Sousa</h1>
-                <h3 className="jobTitle">Software Engineer</h3>
+                <Logo />
             </div>
             <div className="navRight">
                 <ul className="navLinks">
-                    <li><a href="#Home">Home</a></li>
-                    <li><a href="#About">About Me</a></li>
-                    <li><a href="#Projects">Projects</a></li>
-                    <li><a href="#Skills">Skills</a></li>
-                    <li><a href="#Contact">Contact Me</a></li>
+                    <li><Link href="#About" title="About Me"/></li>
+                    <li><Link href="#Projects" title="Projects"/></li>
+                    <li><Link href="#Skills" title="Skills"/></li>
+                    <li><Link href="#Contact" title="Contact Me"/></li>
                 </ul> 
             </div> 
         </nav>
     );
 }
-
-/* TODO: USE PROPS FOR THE LINKS */
 
 export default Navbar;

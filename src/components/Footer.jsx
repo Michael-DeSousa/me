@@ -1,15 +1,16 @@
 import React from "react";
 
-const currDate = new Date();
+import Copyright from "./Copyright";
+import Link from "./Link";
 
 function Footer() {
     return (
         <footer>
-            <a href="https://github.com/Michael-DeSousa">Personal Site</a>
-            <a href="https://linkedin.com/in/michaeldesous">LinkedIn</a>
-            <a href="https://github.com/Michael-DeSousa">Github</a>
-            <a href="https://www.youtube.com/channel/UClsx7TW67_bn4qIA1TevRsg">Youtube</a>
-            <p id="copyright">© {currDate.getFullYear()} Michael De Sousa</p>
+            <Link href="https://github.com/Michael-DeSousa" title="Personal Site" />
+            <Link href="https://linkedin.com/in/michaeldesous" title="LinkedIn" />
+            <Link href="https://github.com/Michael-DeSousa" title="Github" />
+            <Link href="https://www.youtube.com/channel/UClsx7TW67_bn4qIA1TevRsg" title="Youtube" />
+            <Copyright owner="Michael De Sousa" />
         </footer>
     );
 }

@@ -31,21 +31,6 @@ footer {
     box-shadow: 0 0 1rem 0 rgba(0,0,0,0.5);
 }
 
-footer a {
-    padding: 0.5rem 1rem;
-
-    font-family: "Rubik", sans-serif;
-    font-size: 1.25rem;
-    font-weight: bold;
-    text-decoration: none;
-
-    color: #112d4e;
-}
-
-footer a:hover {
-    color: #f9f7f7;
-}
-
 nav {
     margin-bottom: 5rem;
     overflow: hidden;
@@ -59,25 +44,8 @@ nav {
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.5);
 }
 
-nav a {
-    margin: 0.75rem 0;
-    padding: 0.5rem 1rem;
-
-    font-family: "Rubik", sans-serif;
-    font-size: 1.25rem;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-
-    color: #112d4e;
-}
-
-nav a:hover {
-    color: #f9f7f7;
-}
-
-.bio {
-    margin: 1rem auto;
+.bodyText {
+    margin: 1rem auto 2rem auto;
     width: 40%;
 
     font-family: "Rubik", sans-serif;
@@ -91,11 +59,29 @@ nav a:hover {
     max-width: 15%;
 }
 
+.contactIcon:hover {
+    transform: scale(1.25);
+    transition: 0.2s ease-out;
+}
+
 .contactIcons {
     text-align: center;
 }
 
+.contactInfo {
+    border-radius: 10rem;
+    margin: auto;
+    padding: 0.6rem;
+    width: 10%;
+
+    text-align: center;
+
+    background-color: #7cadd9;
+    box-shadow: 0 0 1rem 0 rgba(0,0,0,0.2);
+}
+
 .email {
+    display: inline-block;
     font-family: "Roboto", sans-serif;
     font-size: 1rem;
     text-align: center;
@@ -104,7 +90,12 @@ nav a:hover {
     color: #f9f7f7;
 }
 
-.greeting {
+.email:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-out;
+}
+
+.header {
     margin: 1rem;
 
     font-family: "Roboto", sans-serif;
@@ -114,7 +105,38 @@ nav a:hover {
     color: #112d4e;
 }
 
-.jobTitle {
+.link {
+    margin: 0.75rem 0;
+    padding: 0.5rem 1rem;
+
+    font-family: "Rubik", sans-serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+
+    color: #112d4e;
+}
+
+.link:hover {
+    color: #f9f7f7;
+}
+
+.logo {
+    text-align: left;
+}
+
+.logoName {
+    margin: 0;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 1.75rem;
+    font-weight: bold;
+    
+    color: #112d4e;
+}
+
+.logoJob {
     margin: 0;
 
     font-family: "Roboto", sans-serif;
@@ -126,22 +148,10 @@ nav a:hover {
 
 .navLeft {
     float: left;
-
-    text-align: left;
 }
 
 .navRight {
     float: right;
-}
-
-.myName {
-    margin: 0;
-
-    font-family: "Roboto", sans-serif;
-    font-size: 1.75rem;
-    font-weight: bold;
-    
-    color: #112d4e;
 }
 
 .navLinks {
@@ -152,16 +162,13 @@ nav a:hover {
     float: left;
 }
 
-#contactInfo {
-    border-radius: 10rem;
+.selfie {
+    border-radius: 100%;
+    display: block;
     margin: auto;
-    padding: 0.5rem;
+    max-width: 20rem;
+    max-height: 20rem;
     width: 10%;
-
-    text-align: center;
-
-    background-color: #7cadd9;
-    box-shadow: 0 0 1rem 0 rgba(0,0,0,0.2);
 }
 
 #copyright {
@@ -173,13 +180,4 @@ nav a:hover {
     text-align: center;
 
     color: #f9f7f7;
-}
-
-#selfie {
-    border-radius: 100%;
-    display: block;
-    margin: auto;
-    max-width: 20rem;
-    max-height: 20rem;
-    width: 10%;
 }

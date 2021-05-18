@@ -1,9 +1,11 @@
 import React from "react";
 
+import Header from "./Header";
+
 function Projects() {
     return (
-        <div>
-            <h1>Projects</h1>
+        <div id="#Projects">
+            <Header text="Projects" />
         </div>
     );
 }

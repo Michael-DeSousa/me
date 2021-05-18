@@ -1,8 +1,8 @@
-import React from "react"
+import React from "react";
 
-function Selfie()
+function Selfie(props)
 {
-    return <img id="selfie" src="images/selfie.jpg" alt="Michael De Sousa"></img>;
+    return <img className="selfie" src={props.img} alt={props.alt}></img>;
 }
 
 export default Selfie;
