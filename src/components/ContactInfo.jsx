@@ -2,11 +2,13 @@ import React from "react";
 
 import ClickIcon from "./ClickIcon";
 import Email from "./Email";
+import Resume from "./Resume"
 
 function ContactInfo() {
     return (
         <div className="contactInfo">
                 <Email email="michael.desous@gmail.com" />
+                <Resume />
                 <div className="contactIcons">
                     <ClickIcon link="https://github.com/Michael-DeSousa" icon="./images/github.png" alt="Github Logo" />
                     <ClickIcon link="https://www.linkedin.com/in/michaeldesous" icon="./images/linkedin.png" alt="LinkedIn Logo" />

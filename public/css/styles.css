@@ -53,10 +53,45 @@ nav {
     text-align: center;
 }
 
+.card {
+    position: relative;
+    height: 256px;
+    width: 256px;
+}
+
+.card img {
+    max-height: 256px;
+    max-width: 256px;
+}
+
+.cardOverlay {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+    font-family: "Roboto", sans-serif;
+
+    background: rgba(0, 0, 0, 0.5);
+    color: #f9f7f7;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.cardOverlay:hover {
+    opacity: 1;
+}
+
+.cardTechStack {
+    margin: 0.25rem;
+    text-align: left;
+}
+
 .contactIcon {
     margin: 0.75rem 1.25rem 0 1.25rem;
-    max-height: 15%;
-    max-width: 15%;
+    max-height: 40px;
+    max-width: 40px;
 }
 
 .contactIcon:hover {
@@ -72,7 +107,7 @@ nav {
     border-radius: 10rem;
     margin: auto;
     padding: 0.6rem;
-    width: 10%;
+    width: 12.5%;
 
     text-align: center;
 
@@ -93,6 +128,18 @@ nav {
 .email:hover {
     transform: scale(1.1);
     transition: 0.2s ease-out;
+
+    font-weight: bold;
+
+    color: #112d4e
+}
+
+.galleryTable {
+    margin: auto;
+}
+
+.galleryTable td {
+    padding: 0;
 }
 
 .header {
@@ -109,7 +156,7 @@ nav {
     margin: 0.75rem 0;
     padding: 0.5rem 1rem;
 
-    font-family: "Rubik", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 1.25rem;
     font-weight: bold;
     text-align: center;
@@ -124,6 +171,10 @@ nav {
 
 .logo {
     text-align: left;
+}
+
+.logo a {
+    text-decoration: none;
 }
 
 .logoName {
@@ -162,6 +213,28 @@ nav {
     float: left;
 }
 
+.roundLink {
+    display: inline-block;
+    margin: 0.5rem 0.3rem;
+    border-radius: 10rem;
+    padding: 0.6rem;
+    width: 5rem;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+
+    background-color: #f9f7f7;
+    color: #112d4e;
+}
+
+.roundLink:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-out;
+
+    background-color: #3f72af;
+}
+
 .selfie {
     border-radius: 100%;
     display: block;
@@ -180,4 +253,13 @@ nav {
     text-align: center;
 
     color: #f9f7f7;
+}
+
+#resume {
+    margin: 0.5rem auto auto auto;
+    width: 80%;
+}
+
+#resume:hover {
+    background-color: #3f72af;
 }
