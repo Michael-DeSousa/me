@@ -1,5 +1,6 @@
 import React from "react";
 
+import ContactForm from "./ContactForm"
 import Footer from "./Footer";
 import Intro from "./Intro";
 import Navbar from "./Navbar";
@@ -13,6 +14,7 @@ function App() {
             <Intro />
             <Projects />
             <Skills />
+            <ContactForm />
             <Footer />
         </div>
     );

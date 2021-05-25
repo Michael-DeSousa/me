@@ -31,6 +31,10 @@ footer {
     box-shadow: 0 0 1rem 0 rgba(0,0,0,0.5);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 nav {
     margin-bottom: 5rem;
     overflow: hidden;
@@ -132,6 +136,50 @@ nav {
     font-weight: bold;
 
     color: #112d4e
+}
+
+.formSubmit {
+    border: 2px solid #112d4e;
+    border-radius: 10rem;
+    margin: 0.25rem auto 3rem auto;
+    padding: 0.6rem;
+    height: 3.5rem;
+    width: 6rem;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+
+    background-color: #f9f7f7;
+    color: #112d4e; 
+}
+
+.formSubmit:hover {
+    background-color: #112d4e;
+    color: #f9f7f7;
+}
+
+.formTextInput {
+    border: 1px solid #112d4e;
+    display: block;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    width: 25%;
+
+    font-family: "Roboto", sans-serif;
+
+    background-color: #f9f7f7;
+    color: #112d4e;
+}
+
+.formTextInput:focus {
+    outline: none;
+    background-color: #7cadd9;
+}
+
+.formTextInput::placeholder {
+    color: #112d4e;
+    opacity: 1;
 }
 
 .galleryTable {

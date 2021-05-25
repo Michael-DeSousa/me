@@ -5,7 +5,7 @@ import Header from "./Header";
 
 function Projects() {
     return (
-        <div id="#Projects">
+        <div id="Projects">
             <Header text="Projects" />
             <Gallery />
         </div>

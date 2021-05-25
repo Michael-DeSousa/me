@@ -4,7 +4,7 @@ import Header from "./Header";
 
 function Skills() {
     return (
-        <div id="#Skills">
+        <div id="Skills">
             <Header text="Skills" />
         </div>
     );
