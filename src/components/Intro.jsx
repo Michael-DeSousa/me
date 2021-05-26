@@ -7,7 +7,7 @@ import Selfie from "./Selfie";
 
 function Intro() {
     return (
-        <div id="About">
+        <div id="about">
             <Selfie img="images/selfie.jpg" alt="Michael De Sousa" />
             <Header text="Hi, I'm Michael!" />
             <ContactInfo />

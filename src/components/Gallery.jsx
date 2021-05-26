@@ -8,14 +8,14 @@ function Gallery() {
             <table className="galleryTable">
                 <tbody>
                     <tr>
-                        <td><Card link="https://github.com/" img="./images/placeholder.png" alt="temp" title="R'Mailbox" description="New project being worked on!" /></td>
-                        <td><Card link="https://github.com/Michael-DeSousa/R-Mailbox" img="./images/rmailbox.png" alt="R'mailbox Project" title="R'Mailbox" description='"Smart" (IoT) Mailbox' bullet1="Python and C" bullet2="Raspberry Pi + Atmega1284" bullet3="Amazon Alexa Integration using Flask Server" /></td>
-                        <td><Card link="https://github.com/Michael-DeSousa/R-Mailbox" img="./images/rmailbox.png" alt="R'mailbox Project" title="R'Mailbox" description="Senior Design Spring 2020" /></td>
+                        <td><Card img="./images/placeholder.png" alt="temp" title="R'Mailbox" description="New project being worked on!" /></td>
+                        <td><Card img="./images/rmailbox.png" alt="R'mailbox Project" title="R'Mailbox" description='"Smart" (IoT) Mailbox' bullet1="Python and C" bullet2="Raspberry Pi + Atmega1284" bullet3="Amazon Alexa Integration using Flask Server" source="https://github.com/Michael-Desousa" demo="https://youtube.com" /></td>
+                        <td><Card img="./images/rmailbox.png" alt="R'mailbox Project" title="R'Mailbox" description='"Smart" (IoT) Mailbox' bullet1="Python and C" bullet2="Raspberry Pi + Atmega1284" bullet3="Amazon Alexa Integration using Flask Server" source="https://github.com/Michael-Desousa" demo="https://youtube.com" /></td>
                     </tr>
                     <tr>
-                        <td><Card link="https://github.com/Michael-DeSousa/R-Mailbox" img="./images/rmailbox.png" alt="R'mailbox Project" title="R'Mailbox" description="Senior Design Spring 2020" /></td>
-                        <td><Card link="https://github.com/Michael-DeSousa/R-Mailbox" img="./images/rmailbox.png" alt="R'mailbox Project" title="R'Mailbox" description="Senior Design Spring 2020" /></td>
-                        <td><Card link="https://github.com/Michael-DeSousa/R-Mailbox" img="./images/rmailbox.png" alt="R'mailbox Project" title="R'Mailbox" description="Senior Design Spring 2020" /></td>
+                        <td><Card img="./images/rmailbox.png" alt="R'mailbox Project" title="R'Mailbox" description='"Smart" (IoT) Mailbox' bullet1="Python and C" bullet2="Raspberry Pi + Atmega1284" bullet3="Amazon Alexa Integration using Flask Server" source="https://github.com/Michael-Desousa" demo="https://youtube.com" /></td>
+                        <td><Card img="./images/rmailbox.png" alt="R'mailbox Project" title="R'Mailbox" description='"Smart" (IoT) Mailbox' bullet1="Python and C" bullet2="Raspberry Pi + Atmega1284" bullet3="Amazon Alexa Integration using Flask Server" source="https://github.com/Michael-Desousa" demo="https://youtube.com" /></td>
+                        <td><Card img="./images/rmailbox.png" alt="R'mailbox Project" title="R'Mailbox" description='"Smart" (IoT) Mailbox' bullet1="Python and C" bullet2="Raspberry Pi + Atmega1284" bullet3="Amazon Alexa Integration using Flask Server" source="https://github.com/Michael-Desousa" demo="https://youtube.com" /></td>
                     </tr>
                 </tbody>
             </table>

@@ -12,11 +12,11 @@ function Navbar() {
             <div className="navRight">
                 <ul className="navLinks">
                     
-                    <li><Link link="#About" title="About Me"/></li>
-                    <li><Link link="#Projects" title="Projects"/></li>
-                    <li><Link link="#Skills" title="Skills"/></li>
-                    <li><Link link="#Resume" title="Resume"/></li>
-                    <li><Link link="#Contact" title="Contact Me"/></li>
+                    <li><Link link="#about" title="About Me"/></li>
+                    <li><Link link="#projects" title="Projects"/></li>
+                    <li><Link link="#skills" title="Skills"/></li>
+                    <li><Link link="#resume" title="Resume"/></li>
+                    <li><Link link="#contact" title="Contact Me"/></li>
                 </ul> 
             </div> 
         </nav>

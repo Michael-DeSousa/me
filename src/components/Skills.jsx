@@ -1,12 +1,12 @@
 import React from "react";
 
 import Header from "./Header";
-import StaticIcon from "./StaticIcon"
+import StaticIcon from "./StaticIcon";
 
 function Skills() {
     return (
-        <div id="Skills">
-            <div className="languages">
+        <div id="skills">
+            <div className="skillDisplay">
                 <Header text="Skills" />
                 <div>
                     <StaticIcon icon="./images/icons/c++.png" alt="c++" />

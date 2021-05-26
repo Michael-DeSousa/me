@@ -1,349 +1,355 @@
-/* FORMAT
+/* 			FORMAT
 
-item {
-    size + positioning
+Type Selectors -> Classes -> IDs
+Properties are in alphabetical order */
 
-    font properties
-
-    colors
+body
+{
+	background-color: #dbe2ef;
+	color: #112d4e;
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
 }
 
-Each subsection is in alphabetical order */
-
-
-body {
-    height: 100%;
-    margin: 0;
-    width: 100%;
-
-    text-align: center;
-
-    background-color: #dbe2ef;
-    color: #112d4e;
+footer
+{
+	background-color: #3f72af;
+	box-shadow: 0 0 1rem 0 rgba(0,0,0,0.5);
+	padding: 2rem;
+	text-align: center;
 }
 
-footer {
-    padding: 2rem;
-
-    text-align: center;
-
-    background-color: #3f72af;
-    box-shadow: 0 0 1rem 0 rgba(0,0,0,0.5);
+html
+{
+	scroll-behavior: smooth;
 }
 
-html {
-    scroll-behavior: smooth;
+nav
+{
+	background-color: #3f72af;
+	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.5);
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	margin-bottom: 5rem;
+	overflow: hidden;
+	padding: 1rem;
+	text-align: left;
 }
 
-nav {
-    margin-bottom: 5rem;
-    overflow: hidden;
-    padding: 1rem;
-
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    text-align: left;
-
-    background-color: #3f72af;
-    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.5);
+.bodyText
+{
+	font-family: "Rubik", sans-serif;
+	line-height: 3;
+	margin: 2rem auto 2rem auto;
+	text-align: center;
+	width: 45%;
 }
 
-.bodyText {
-    margin: 2rem auto 2rem auto;
-    width: 45%;
-
-    font-family: "Rubik", sans-serif;
-    line-height: 3;
-    text-align: center;
+.card
+{
+	height: 256px;
+	position: relative;
+	width: 256px;
 }
 
-.card {
-    position: relative;
-    height: 256px;
-    width: 256px;
+.card img
+{
+	max-height: 256px;
+	max-width: 256px;
 }
 
-.card img {
-    max-height: 256px;
-    max-width: 256px;
+.cardOverlay
+{
+	background: rgba(0, 0, 0, 0.5);
+	color: #f9f7f7;
+	font-family: "Roboto", sans-serif;
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	transition: opacity 0.25s;
+	width: 100%;
 }
 
-.cardOverlay {
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-
-    font-family: "Roboto", sans-serif;
-
-    background: rgba(0, 0, 0, 0.5);
-    color: #f9f7f7;
-    opacity: 0;
-    transition: opacity 0.25s;
+.cardOverlay:hover
+{
+	opacity: 1;
 }
 
-.cardOverlay:hover {
-    opacity: 1;
+.cardTechStack
+{
+	margin: 0.25rem;
+	text-align: left;
 }
 
-.cardTechStack {
-    margin: 0.25rem;
-    text-align: left;
+.contactIcon
+{
+	margin: 0.75rem 1.25rem 0 1.25rem;
+	max-height: 40px;
+	max-width: 40px;
 }
 
-.contactIcon {
-    margin: 0.75rem 1.25rem 0 1.25rem;
-    max-height: 40px;
-    max-width: 40px;
+.contactIcon:hover
+{
+	transform: scale(1.25);
+	transition: 0.2s ease-out;
 }
 
-.contactIcon:hover {
-    transform: scale(1.25);
-    transition: 0.2s ease-out;
+.contactIcons
+{
+	text-align: center;
 }
 
-.contactIcons {
-    text-align: center;
+.contactInfo
+{
+	background-color: #7cadd9;
+	border-radius: 10rem;
+	box-shadow: 0 0 1rem 0 rgba(0,0,0,0.2);
+	margin: auto;
+	padding: 0.6rem 1.5rem;
+	text-align: center;
+	width: fit-content;
 }
 
-.contactInfo {
-    border-radius: 10rem;
-    margin: auto;
-    padding: 0.6rem 1.5rem;
-    width: fit-content;
-
-    text-align: center;
-
-    background-color: #7cadd9;
-    box-shadow: 0 0 1rem 0 rgba(0,0,0,0.2);
+.email
+{
+	color: #f9f7f7;
+	display: inline-block;
+	font-family: "Roboto", sans-serif;
+	font-size: 1rem;
+	text-align: center;
+	text-decoration: none;
 }
 
-.email {
-    display: inline-block;
-    font-family: "Roboto", sans-serif;
-    font-size: 1rem;
-    text-align: center;
-    text-decoration: none;
-
-    color: #f9f7f7;
+.email:hover
+{
+	color: #112d4e;
+	font-weight: bold;
+	transform: scale(1.1);
+	transition: 0.2s ease-out;
 }
 
-.email:hover {
-    transform: scale(1.1);
-    transition: 0.2s ease-out;
-
-    font-weight: bold;
-
-    color: #112d4e
+.formSubmit
+{
+	background-color: #f9f7f7;
+	border: 2px solid #112d4e;
+	border-radius: 10rem;
+	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+	color: #112d4e;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	height: 3.5rem;
+	margin: 1rem auto 1rem auto;
+	padding: 0.6rem;
+	text-decoration: none;
+	width: 6rem;
 }
 
-.formSubmit {
-    border: 2px solid #112d4e;
-    border-radius: 10rem;
-    margin: 1rem auto 1rem auto;
-    padding: 0.6rem;
-    height: 3.5rem;
-    width: 6rem;
-
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    text-decoration: none;
-
-    background-color: #f9f7f7;
-    color: #112d4e; 
+.formSubmit:hover
+{
+	background-color: #112d4e;
+	color: #f9f7f7;
 }
 
-.formSubmit:hover {
-    background-color: #112d4e;
-    color: #f9f7f7;
+.formTextInput
+{
+	background-color: #f9f7f7;
+	border: 1px solid #112d4e;
+	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.1);
+	color: #112d4e;
+	display: block;
+	font-family: "Roboto", sans-serif;
+	margin: 0.5rem auto;
+	padding: 0.5rem;
+	width: 80%;
 }
 
-.formTextInput {
-    border: 1px solid #112d4e;
-    display: block;
-    margin: 0.5rem auto;
-    padding: 0.5rem;
-    width: 80%;
-
-    font-family: "Roboto", sans-serif;
-
-    background-color: #f9f7f7;
-    color: #112d4e;
+.formTextInput:focus
+{
+	background-color: #7cadd9;
+	outline: none;
 }
 
-.formTextInput:focus {
-    outline: none;
-    background-color: #7cadd9;
+.formTextInput::placeholder
+{
+	color: #112d4e;
+	opacity: 1;
 }
 
-.formTextInput::placeholder {
-    color: #112d4e;
-    opacity: 1;
+.galleryTable
+{
+	margin: auto;
 }
 
-.galleryTable {
-    margin: auto;
+.galleryTable td
+{
+	padding: 0;
 }
 
-.galleryTable td {
-    padding: 0;
+.header
+{
+	color: #112d4e;
+	font-family: "Roboto", sans-serif;
+	font-size: 2rem;
+	margin: 1rem;
+	text-align: center;
 }
 
-.header {
-    margin: 1rem;
-
-    font-family: "Roboto", sans-serif;
-    font-size: 2rem;
-    text-align: center;
-
-    color: #112d4e;
+.link
+{
+	color: #112d4e;
+	font-family: "Roboto", sans-serif;
+	font-size: 1.25rem;
+	font-weight: bold;
+	margin: 0.75rem 0;
+	padding: 0.5rem 1rem;
+	text-align: center;
+	text-decoration: none;
 }
 
-.languages {
-    border-radius: 5rem;
-    margin: 2rem auto;
-    padding: 1rem;
-    width: 40%;
-
-    background-color: #7cadd9;
-    box-shadow: 0 0 1rem 0 rgba(0,0,0,0.5);
+.link:hover
+{
+	color: #f9f7f7;
 }
 
-.link {
-    margin: 0.75rem 0;
-    padding: 0.5rem 1rem;
-
-    font-family: "Roboto", sans-serif;
-    font-size: 1.25rem;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-
-    color: #112d4e;
+.logo
+{
+	text-align: left;
 }
 
-.link:hover {
-    color: #f9f7f7;
+.logo a
+{
+	text-decoration: none;
 }
 
-.logo {
-    text-align: left;
+.logoName
+{
+	color: #112d4e;
+	font-family: "Roboto", sans-serif;
+	font-size: 1.75rem;
+	font-weight: bold;
+	margin: 0;
 }
 
-.logo a {
-    text-decoration: none;
+.logoJob
+{
+	color: #f9f7f7;
+	font-family: "Roboto", sans-serif;
+	font-size: 1.25rem;
+	font-weight: bold;
+	margin: 0;
 }
 
-.logoName {
-    margin: 0;
-
-    font-family: "Roboto", sans-serif;
-    font-size: 1.75rem;
-    font-weight: bold;
-    
-    color: #112d4e;
+.navLeft
+{
+	float: left;
 }
 
-.logoJob {
-    margin: 0;
-
-    font-family: "Roboto", sans-serif;
-    font-size: 1.25rem;
-    font-weight: bold;
-    
-    color: #f9f7f7;
+.navRight
+{
+	float: right;
 }
 
-.navLeft {
-    float: left;
+.navLinks
+{
+	list-style-type: none;
 }
 
-.navRight {
-    float: right;
+.navLinks li
+{
+	float: left;
 }
 
-.navLinks {
-    list-style-type: none;
+.roundLink
+{
+	background-color: #f9f7f7;
+	border-radius: 10rem;
+	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.1);
+	color: #112d4e;
+	display: inline-block;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	margin: 0.5rem 0.3rem;
+	padding: 0.6rem;
+	text-decoration: none;
+	width: 5rem;
 }
 
-.navLinks li {
-    float: left;
+.roundLink:hover
+{
+	background-color: #3f72af;
+	transform: scale(1.1);
+	transition: 0.2s ease-out;
 }
 
-.roundLink {
-    display: inline-block;
-    margin: 0.5rem 0.3rem;
-    border-radius: 10rem;
-    padding: 0.6rem;
-    width: 5rem;
-
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    text-decoration: none;
-
-    background-color: #f9f7f7;
-    color: #112d4e;
+.selfie
+{
+	border-radius: 100%;
+	box-shadow: 0 0 1rem 0 rgba(0,0,0,0.5);
+	display: block;
+	margin: auto;
+	max-height: 20rem;
+	max-width: 20rem;
+	width: 20%;
 }
 
-.roundLink:hover {
-    transform: scale(1.1);
-    transition: 0.2s ease-out;
-
-    background-color: #3f72af;
+.skillDisplay
+{
+	background-color: #7cadd9;
+	border-radius: 5rem;
+	box-shadow: 0 0 1rem 0 rgba(0,0,0,0.5);
+	margin: 2rem auto;
+	padding: 1rem;
+	width: 40%;
 }
 
-.selfie {
-    border-radius: 100%;
-    display: block;
-    margin: auto;
-    max-width: 20rem;
-    max-height: 20rem;
-    width: 20%;
-
-    box-shadow: 0 0 1rem 0 rgba(0,0,0,0.5);
+.staticIcon
+{
+	margin: 3rem 3rem;
+	max-height: 128px;
+	max-width: 128px;
 }
 
-.staticIcon {
-    margin: 3rem 3rem;
-    max-height: 128px;
-    max-width: 128px;
+#contact
+{
+	background-color: #f9f7f7;
+	border-radius: 5rem;
+	box-shadow: 0 0 1rem 0 rgba(0,0,0,0.5);
+	margin: 6rem auto;
+	padding: 1rem;
+	width: 40%;
 }
 
-#Contact {
-    border-radius: 5rem;
-    margin: 6rem auto;
-    padding: 1rem;
-    width: 40%;
-
-    background-color: #f9f7f7;
-    box-shadow: 0 0 1rem 0 rgba(0,0,0,0.5);
+#copyright
+{
+	color: #f9f7f7;
+	display: block;
+	font-family: "Roboto", sans-serif;
+	font-size: 0.8rem;
+	margin: 1.5rem auto 0 auto;
+	text-align: center;
 }
 
-#copyright {
-    display: block;
-    margin: 1.5rem auto 0 auto;
-
-    font-family: "Roboto", sans-serif;
-    font-size: 0.8rem;
-    text-align: center;
-
-    color: #f9f7f7;
+#projects
+{
+	margin-top: 6rem;
 }
 
-#Projects {
-    margin-top: 6rem;
+#resume
+{
+	margin: 0.5rem auto auto auto;
+	width: 80%;
 }
 
-#resume {
-    margin: 0.5rem auto auto auto;
-    width: 80%;
+#resume:hover
+{
+	background-color: #3f72af;
 }
 
-#resume:hover {
-    background-color: #3f72af;
-}
-
-#Skills {
-    margin-top: 6rem;
+#skills
+{
+	margin-top: 6rem;
 }

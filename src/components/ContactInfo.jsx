@@ -2,7 +2,7 @@ import React from "react";
 
 import ClickIcon from "./ClickIcon";
 import Email from "./Email";
-import Resume from "./Resume"
+import Resume from "./Resume";
 
 function ContactInfo() {
     return (

@@ -1,10 +1,11 @@
 import React from "react";
+
 import Header from "./Header";
 
 function ContactForm() {
     return (
-        <div id="Contact">
-            <Header text="Let's Get In Touch!"/>
+        <div id="contact">
+            <Header text="Let's get in touch!"/>
 
             {/* Using formsubmit.co to forward emails to me*/}
             <form action="https://formsubmit.co/314a61eeff6024c8bb9703483cb0923e" method="POST">
