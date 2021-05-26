@@ -11,7 +11,7 @@ function Intro() {
             <Selfie img="images/selfie.jpg" alt="Michael De Sousa" />
             <Header text="Hi, I'm Michael!" />
             <ContactInfo />
-            <BodyText text="I'm a new graduate from the University of California, Riverside Computer Engineering program. I'm currently located in Fontana, California and am looking to start my career! 
+            <BodyText text="I'm a new graduate from the University of California, Riverside Computer Engineering program. I'm currently located in Fontana, California and am looking to start my career! I'm most comfortable working in C/C++ as well as with embedded systems.
             Feel free to take a look at my projects and contact me if you think I'd make a good fit for your team. Thanks!" />
         </div>
     ); 

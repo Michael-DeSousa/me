@@ -2,7 +2,7 @@ import React from "react";
 
 import Card from "./Card";
 
-function Gallery(props) {
+function Gallery() {
     return (
         <div>
             <table className="galleryTable">
