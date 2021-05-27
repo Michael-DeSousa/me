@@ -1,4 +1,4 @@
-# Michael-Desousa.me - My personal website!
+# Michael-DeSousa.me - My personal website!
 
  ![portfolio](https://user-images.githubusercontent.com/22509729/119904237-e2bdeb00-befe-11eb-9e20-dce562b318be.png)
 
