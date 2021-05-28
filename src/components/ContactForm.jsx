@@ -12,7 +12,7 @@ function ContactForm() {
                 <input className="formTextInput" type="text" name="senderName" placeholder="Your Name" minLength="2" required/>
                 <input className="formTextInput" type="email" name="senderEmail" placeholder="Your Email" minLength="3" required />
                 <input className="formTextInput" type="text" name="senderSubject" placeholder="Subject" />
-                <textarea className="formTextInput"name="senderMessage" rows="7" placeholder="Your Message" minLength="2" required/>
+                <textarea className="formTextInput"name="senderMessage" rows="8" placeholder="Your Message" minLength="2" required/>
                 <input className="formSubmit" type="submit" value="Send" />
             </form>
         </div>
