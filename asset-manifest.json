@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/michael-desousa.github.io/static/js/main.fe7a9b4f.chunk.js",
+    "main.js.map": "/michael-desousa.github.io/static/js/main.fe7a9b4f.chunk.js.map",
+    "runtime-main.js": "/michael-desousa.github.io/static/js/runtime-main.b472bac1.js",
+    "runtime-main.js.map": "/michael-desousa.github.io/static/js/runtime-main.b472bac1.js.map",
+    "static/js/2.f9e8fe92.chunk.js": "/michael-desousa.github.io/static/js/2.f9e8fe92.chunk.js",
+    "static/js/2.f9e8fe92.chunk.js.map": "/michael-desousa.github.io/static/js/2.f9e8fe92.chunk.js.map",
+    "index.html": "/michael-desousa.github.io/index.html",
+    "static/js/2.f9e8fe92.chunk.js.LICENSE.txt": "/michael-desousa.github.io/static/js/2.f9e8fe92.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b472bac1.js",
+    "static/js/2.f9e8fe92.chunk.js",
+    "static/js/main.fe7a9b4f.chunk.js"
+  ]
+}
