@@ -366,8 +366,96 @@ nav
 	margin-top: 6rem;
 }
 
-@media screen and (max-width: 800px)
+@media screen and (max-width: 1410px) 
 {
+	.skillDisplay
+	{
+		width: 70%;
+	}
+
+	#contact
+	{
+		width: 75%;
+	}
+}
+
+@media screen and (max-width: 992px)
+{
+	.bodyText 
+	{
+		width: 80%;
+	}
+
+	.card
+	{
+		height: 12rem;
+		font-size: 0.7rem;
+		position: relative;
+		width: 12rem;
+	}
+
+	.card a 
+	{
+		margin: 0.25rem 0.3rem;
+		width: 2rem;
+	}
+
+	.card h1 
+	{
+		font-size: 1.25rem;
+	}
+
+	.card img
+	{
+		max-height: 12rem;
+		max-width: 12rem;
+	}
+
+	.skillDisplay
+	{
+		width: 70%;
+	}
+	
+	.skillHeader
+	{
+		font-size: 1.25rem;
+	}
+	
+	.staticIcon
+	{
+		margin: 1.5rem;
+		max-height: 128px;
+		max-width: 128px;
+	}
+
+	#contact
+	{
+		width: 75%;
+	}
+}
+
+@media screen and (max-width: 768px)
+{
+	.staticIcon
+	{
+		margin: 1.5rem;
+		max-height: 80px;
+		max-width: 80px;
+	}
+}
+
+@media screen and (max-width: 620px)
+{
+	footer {
+		padding: 2rem 0.25rem;
+	}
+
+	.bodyText 
+	{
+		font-size: 0.85rem;
+		width: 90%;
+	}
+
 	.card
 	{
 		height: 10rem;
@@ -376,14 +464,14 @@ nav
 		width: 10rem;
 	}
 
-	.card a {
+	.card a 
+	{
 		margin: 0.25rem 0.3rem;
-		padding: 0.6rem;
-		text-decoration: none;
 		width: 2rem;
 	}
 
-	.card h1 {
+	.card h1 
+	{
 		font-size: 0.75rem;
 	}
 
@@ -393,29 +481,41 @@ nav
 		max-width: 10rem;
 	}
 
-	.cardOverlay
-	{
-		background: rgba(0, 0, 0, 0.6);
-		color: #f9f7f7;
-		font-family: "Roboto", sans-serif;
-		height: 100%;
-		left: 0;
-		opacity: 0;
-		position: absolute;
-		top: 0;
-		transition: opacity 0.25s;
+	nav .link {
+		padding: 0;
+	}
+
+	.navRight {
 		width: 100%;
 	}
 
-	.cardOverlay:hover
-	{
-		opacity: 1;
+	.navLinks {
+		padding-inline-start: 0;
+	}
+	
+	.navLinks li, a{
+		float: none;
 	}
 
-	.cardTechStack
+	.skillDisplay
 	{
-		margin: 0.25rem;
-		text-align: left;
+		width: 70%;
+	}
+	
+	.skillHeader
+	{
+		font-size: 1.25rem;
+	}
+	
+	.staticIcon
+	{
+		margin: 1.5rem;
+		max-height: 64px;
+		max-width: 64px;
 	}
 
+	#contact
+	{
+		width: 77%;
+	}
 }
