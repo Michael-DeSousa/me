@@ -397,7 +397,7 @@ nav
 	.card a 
 	{
 		margin: 0.25rem 0.3rem;
-		width: 2rem;
+		width: 2.5rem;
 	}
 
 	.card h1 
@@ -442,6 +442,12 @@ nav
 		max-height: 80px;
 		max-width: 80px;
 	}
+
+	.card a 
+	{
+		margin: 0.25rem 0.3rem;
+		width: 2.5rem;
+	}
 }
 
 @media screen and (max-width: 620px)
@@ -460,7 +466,6 @@ nav
 	{
 		height: 10rem;
 		font-size: 0.6rem;
-		position: relative;
 		width: 10rem;
 	}
 
@@ -519,3 +524,158 @@ nav
 		width: 77%;
 	}
 }
+
+@media screen and (max-width: 490px)
+{
+	footer {
+		padding: 2rem 0.25rem;
+	}
+
+	.bodyText 
+	{
+		font-size: 0.85rem;
+		width: 90%;
+	}
+
+	.card
+	{
+		height: 8rem;
+		font-size: 0.4rem;
+		width: 8rem;
+	}
+
+	.card a 
+	{
+		margin: 0.25rem 0.3rem;
+		width: 1.2rem;
+	}
+
+	.card h1 
+	{
+		font-size: 0.7rem;
+	}
+
+	.card img
+	{
+		max-height: 8rem;
+		max-width: 8rem;
+	}
+
+	nav .link {
+		padding: 0;
+	}
+
+	.navRight {
+		width: 100%;
+	}
+
+	.navLinks {
+		padding-inline-start: 0;
+	}
+	
+	.navLinks li, a{
+		float: none;
+	}
+
+	.skillDisplay
+	{
+		width: 70%;
+	}
+	
+	.skillHeader
+	{
+		font-size: 1.25rem;
+	}
+	
+	.staticIcon
+	{
+		margin: 1.5rem;
+		max-height: 45px;
+		max-width: 45px;
+	}
+
+	#contact
+	{
+		width: 77%;
+	}
+}
+
+@media screen and (max-width: 400px)
+{
+	footer {
+		padding: 0.5rem 0.25rem;
+	}
+
+	footer .link {
+		font-size: 0.8rem;
+	}
+
+	.bodyText 
+	{
+		font-size: 0.85rem;
+		width: 90%;
+	}
+
+	.card
+	{
+		height: 7rem;
+		font-size: 0.3rem;
+		width: 7rem;
+	}
+
+	.card a 
+	{
+		margin: 0.25rem 0.3rem;
+		width: 0.85rem;
+	}
+
+	.card h1 
+	{
+		font-size: 0.75rem;
+	}
+
+	.card img
+	{
+		max-height: 7rem;
+		max-width: 7rem;
+	}
+
+	nav .link {
+		padding: 0;
+	}
+
+	.navRight {
+		width: 100%;
+	}
+
+	.navLinks {
+		padding-inline-start: 0;
+	}
+	
+	.navLinks li, a{
+		float: none;
+	}
+
+	.skillDisplay
+	{
+		width: 70%;
+	}
+	
+	.skillHeader
+	{
+		font-size: 1.25rem;
+	}
+	
+	.staticIcon
+	{
+		margin: 1.5rem;
+		max-height: 32px;
+		max-width: 32px;
+	}
+
+	#contact
+	{
+		width: 77%;
+	}
+}
+
