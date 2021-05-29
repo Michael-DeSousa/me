@@ -365,3 +365,57 @@ nav
 {
 	margin-top: 6rem;
 }
+
+@media screen and (max-width: 800px)
+{
+	.card
+	{
+		height: 10rem;
+		font-size: 0.6rem;
+		position: relative;
+		width: 10rem;
+	}
+
+	.card a {
+		margin: 0.25rem 0.3rem;
+		padding: 0.6rem;
+		text-decoration: none;
+		width: 2rem;
+	}
+
+	.card h1 {
+		font-size: 0.75rem;
+	}
+
+	.card img
+	{
+		max-height: 10rem;
+		max-width: 10rem;
+	}
+
+	.cardOverlay
+	{
+		background: rgba(0, 0, 0, 0.6);
+		color: #f9f7f7;
+		font-family: "Roboto", sans-serif;
+		height: 100%;
+		left: 0;
+		opacity: 0;
+		position: absolute;
+		top: 0;
+		transition: opacity 0.25s;
+		width: 100%;
+	}
+
+	.cardOverlay:hover
+	{
+		opacity: 1;
+	}
+
+	.cardTechStack
+	{
+		margin: 0.25rem;
+		text-align: left;
+	}
+
+}
