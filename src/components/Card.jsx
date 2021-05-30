@@ -7,7 +7,7 @@ function Card(props) {
         <div className="card">
             <img src={props.img} alt={props.alt}/>
             <div className="cardOverlay">
-                <h1>{props.title}</h1>
+                <h2>{props.title}</h2>
                 <p>{props.description}</p>
                 <ul className="cardTechStack">
                     <li>{props.bullet1}</li>

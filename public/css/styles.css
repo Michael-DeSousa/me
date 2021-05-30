@@ -115,13 +115,13 @@ nav
 	margin: auto;
 	padding: 0.6rem 1.5rem;
 	text-align: center;
-	width: fit-content;
+	display: table;
 }
 
 .email
 {
 	color: #f9f7f7;
-	display: inline-block;
+	display: block;
 	font-family: "Roboto", sans-serif;
 	font-size: 1rem;
 	text-align: center;
@@ -191,6 +191,7 @@ nav
 .galleryTable td
 {
 	padding: 0;
+	font-size: 1rem;
 }
 
 .header
