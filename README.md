@@ -4,7 +4,7 @@
 
 
 ## Demo 
-[Link](https://michael.desousa.me)
+[Link](https://michael-desousa.me)
 
 # Project Overview
 
