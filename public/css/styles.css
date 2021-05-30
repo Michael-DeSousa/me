@@ -10,6 +10,7 @@ body
 	height: 100%;
 	margin: 0;
 	text-align: center;
+	-webkit-text-size-adjust: 100%;
 	width: 100%;
 }
 
@@ -621,6 +622,85 @@ nav
 	{
 		height: 7rem;
 		font-size: 0.3rem;
+		width: 7rem;
+	}
+
+	.card a 
+	{
+		margin: 0.25rem 0.3rem;
+		width: 0.85rem;
+	}
+
+	.card h1 
+	{
+		font-size: 0.75rem;
+	}
+
+	.card img
+	{
+		max-height: 7rem;
+		max-width: 7rem;
+	}
+
+	nav .link {
+		padding: 0;
+	}
+
+	.navRight {
+		width: 100%;
+	}
+
+	.navLinks {
+		padding-inline-start: 0;
+	}
+	
+	.navLinks li, a{
+		float: none;
+	}
+
+	.skillDisplay
+	{
+		width: 70%;
+	}
+	
+	.skillHeader
+	{
+		font-size: 1.25rem;
+	}
+	
+	.staticIcon
+	{
+		margin: 1.5rem;
+		max-height: 32px;
+		max-width: 32px;
+	}
+
+	#contact
+	{
+		width: 77%;
+	}
+}
+
+@media screen and (max-width: 300px)
+{
+	footer {
+		padding: 0.5rem 0.25rem;
+	}
+
+	footer .link {
+		font-size: 0.8rem;
+	}
+
+	.bodyText 
+	{
+		font-size: 0.85rem;
+		width: 90%;
+	}
+
+	.card
+	{
+		height: 7rem;
+		font-size: 0.2rem;
 		width: 7rem;
 	}
 
