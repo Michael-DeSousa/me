@@ -1,0 +1,762 @@
+/* 			FORMAT
+
+Type Selectors -> Classes -> IDs
+Properties are in alphabetical order */
+
+body
+{
+	background-color: #dbe2ef;
+	color: #112d4e;
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	-webkit-text-size-adjust: 100%;
+	width: 100%;
+}
+
+footer
+{
+	background-color: #3f72af;
+	box-shadow: 0 0 1rem 0 rgba(0,0,0,0.5);
+	padding: 2rem;
+	text-align: center;
+}
+
+html
+{
+	scroll-behavior: smooth;
+}
+
+nav
+{
+	background-color: #3f72af;
+	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.5);
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	margin-bottom: 5rem;
+	overflow: hidden;
+	padding: 1rem;
+	text-align: left;
+}
+
+.bodyText
+{
+	font-family: "Rubik", sans-serif;
+	line-height: 3;
+	margin: 2rem auto 2rem auto;
+	text-align: center;
+	width: 45%;
+}
+
+.card
+{
+	height: 256px;
+	position: relative;
+	width: 256px;
+}
+
+.card h1 {
+	font-size: 1.7rem;
+}
+
+.card img
+{
+	max-height: 256px;
+	max-width: 256px;
+}
+
+.cardOverlay
+{
+	background: rgba(0, 0, 0, 0.6);
+	color: #f9f7f7;
+	font-family: "Roboto", sans-serif;
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	transition: opacity 0.25s;
+	width: 100%;
+}
+
+.cardOverlay:hover
+{
+	opacity: 1;
+}
+
+.cardTechStack
+{
+	margin: 0.25rem;
+	text-align: left;
+}
+
+.contactIcon
+{
+	margin: 0.75rem 1.25rem 0 1.25rem;
+	max-height: 40px;
+	max-width: 40px;
+}
+
+.contactIcon:hover
+{
+	transform: scale(1.25);
+	transition: 0.2s ease-out;
+}
+
+.contactIcons
+{
+	text-align: center;
+}
+
+.contactInfo
+{
+	background-color: #7cadd9;
+	border-radius: 10rem;
+	box-shadow: 0 0 1rem 0 rgba(0,0,0,0.2);
+	margin: auto;
+	padding: 0.6rem 1.5rem;
+	text-align: center;
+	display: table;
+}
+
+.email
+{
+	color: #f9f7f7;
+	display: block;
+	font-family: "Roboto", sans-serif;
+	font-size: 1rem;
+	text-align: center;
+	text-decoration: none;
+}
+
+.email:hover
+{
+	color: #112d4e;
+	font-weight: bold;
+	transform: scale(1.1);
+	transition: 0.2s ease-out;
+}
+
+.formSubmit
+{
+	background-color: #f9f7f7;
+	border: 2px solid #112d4e;
+	border-radius: 10rem;
+	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+	color: #112d4e;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	height: 3.5rem;
+	margin: 1rem auto 1rem auto;
+	padding: 0.6rem;
+	text-decoration: none;
+	width: 6rem;
+}
+
+.formSubmit:hover
+{
+	background-color: #112d4e;
+	color: #f9f7f7;
+}
+
+.formTextInput
+{
+	background-color: #f9f7f7;
+	border: 1px solid #112d4e;
+	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.1);
+	color: #112d4e;
+	display: block;
+	font-family: "Roboto", sans-serif;
+	margin: 0.5rem auto;
+	padding: 0.5rem;
+	width: 80%;
+}
+
+.formTextInput:focus
+{
+	background-color: #7cadd9;
+	outline: none;
+}
+
+.formTextInput::placeholder
+{
+	color: #112d4e;
+	opacity: 1;
+}
+
+.galleryTable
+{
+	margin: auto;
+}
+
+.galleryTable td
+{
+	padding: 0;
+	font-size: 1rem;
+}
+
+.header
+{
+	color: #112d4e;
+	font-family: "Roboto", sans-serif;
+	font-size: 2rem;
+	margin: 1rem;
+	text-align: center;
+}
+
+.link
+{
+	color: #112d4e;
+	font-family: "Roboto", sans-serif;
+	font-size: 1.25rem;
+	font-weight: bold;
+	margin: 0.75rem 0;
+	padding: 0.5rem 1rem;
+	text-align: center;
+	text-decoration: none;
+}
+
+.link:hover
+{
+	color: #f9f7f7;
+}
+
+.logo
+{
+	text-align: left;
+}
+
+.logo a
+{
+	text-decoration: none;
+}
+
+.logoName
+{
+	color: #112d4e;
+	font-family: "Roboto", sans-serif;
+	font-size: 1.75rem;
+	font-weight: bold;
+	margin: 0;
+}
+
+.logoJob
+{
+	color: #f9f7f7;
+	font-family: "Roboto", sans-serif;
+	font-size: 1.25rem;
+	font-weight: bold;
+	margin: 0;
+}
+
+.navLeft
+{
+	float: left;
+}
+
+.navRight
+{
+	float: right;
+}
+
+.navLinks
+{
+	list-style-type: none;
+}
+
+.navLinks li
+{
+	float: left;
+}
+
+.roundLink
+{
+	background-color: #f9f7f7;
+	border-radius: 10rem;
+	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.1);
+	color: #112d4e;
+	display: inline-block;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	margin: 0.5rem 0.3rem;
+	padding: 0.6rem;
+	text-decoration: none;
+	width: 5rem;
+}
+
+.roundLink:hover
+{
+	background-color: #3f72af;
+	transform: scale(1.1);
+	transition: 0.2s ease-out;
+}
+
+.selfie
+{
+	border-radius: 100%;
+	box-shadow: 0 0 1rem 0 rgba(0,0,0,0.5);
+	display: block;
+	margin: auto;
+	max-height: 20rem;
+	max-width: 20rem;
+	width: 20%;
+}
+
+.skillDisplay
+{
+	background-color: #7cadd9;
+	border-radius: 5rem;
+	box-shadow: 0 0 1rem 0 rgba(0,0,0,0.5);
+	margin: 2rem auto;
+	max-width: 970px;
+	padding: 2rem;
+	width: 37.5%;
+}
+
+.skillHeader
+{
+	font-family: "Roboto", sans-serif;
+	text-align: left;
+}
+
+.staticIcon
+{
+	margin: 1.5rem;
+	max-height: 128px;
+	max-width: 128px;
+}
+
+#contact
+{
+	background-color: #f9f7f7;
+	border-radius: 5rem;
+	box-shadow: 0 0 1rem 0 rgba(0,0,0,0.5);
+	margin: 6rem auto;
+	max-width: 1000px;
+	padding: 1rem;
+	width: 40%;
+}
+
+#copyright
+{
+	color: #f9f7f7;
+	display: block;
+	font-family: "Roboto", sans-serif;
+	font-size: 0.8rem;
+	margin: 1.5rem auto 0 auto;
+	text-align: center;
+}
+
+#projects
+{
+	margin-top: 6rem;
+}
+
+#resume
+{
+	margin: 0.5rem auto auto auto;
+	width: 80%;
+}
+
+#resume:hover
+{
+	background-color: #3f72af;
+}
+
+#skills
+{
+	margin-top: 6rem;
+}
+
+@media screen and (max-width: 1410px) 
+{
+	.skillDisplay
+	{
+		width: 70%;
+	}
+
+	#contact
+	{
+		width: 75%;
+	}
+}
+
+@media screen and (max-width: 992px)
+{
+	.bodyText 
+	{
+		width: 80%;
+	}
+
+	.card
+	{
+		height: 12rem;
+		font-size: 0.7rem;
+		position: relative;
+		width: 12rem;
+	}
+
+	.card a 
+	{
+		margin: 0.25rem 0.3rem;
+		width: 2.5rem;
+	}
+
+	.card h1 
+	{
+		font-size: 1.25rem;
+	}
+
+	.card img
+	{
+		max-height: 12rem;
+		max-width: 12rem;
+	}
+
+	.skillDisplay
+	{
+		width: 70%;
+	}
+	
+	.skillHeader
+	{
+		font-size: 1.25rem;
+	}
+	
+	.staticIcon
+	{
+		margin: 1.5rem;
+		max-height: 128px;
+		max-width: 128px;
+	}
+
+	#contact
+	{
+		width: 75%;
+	}
+}
+
+@media screen and (max-width: 768px)
+{
+	.staticIcon
+	{
+		margin: 1.5rem;
+		max-height: 80px;
+		max-width: 80px;
+	}
+
+	.card a 
+	{
+		margin: 0.25rem 0.3rem;
+		width: 2.5rem;
+	}
+}
+
+@media screen and (max-width: 620px)
+{
+	footer {
+		padding: 2rem 0.25rem;
+	}
+
+	.bodyText 
+	{
+		font-size: 0.85rem;
+		width: 90%;
+	}
+
+	.card
+	{
+		height: 10rem;
+		font-size: 0.6rem;
+		width: 10rem;
+	}
+
+	.card a 
+	{
+		margin: 0.25rem 0.3rem;
+		width: 2rem;
+	}
+
+	.card h1 
+	{
+		font-size: 0.75rem;
+	}
+
+	.card img
+	{
+		max-height: 10rem;
+		max-width: 10rem;
+	}
+
+	nav .link {
+		padding: 0;
+	}
+
+	.navRight {
+		width: 100%;
+	}
+
+	.navLinks {
+		padding-inline-start: 0;
+	}
+	
+	.navLinks li, a{
+		float: none;
+	}
+
+	.skillDisplay
+	{
+		width: 70%;
+	}
+	
+	.skillHeader
+	{
+		font-size: 1.25rem;
+	}
+	
+	.staticIcon
+	{
+		margin: 1.5rem;
+		max-height: 64px;
+		max-width: 64px;
+	}
+
+	#contact
+	{
+		width: 77%;
+	}
+}
+
+@media screen and (max-width: 490px)
+{
+	footer {
+		padding: 2rem 0.25rem;
+	}
+
+	.bodyText 
+	{
+		font-size: 0.85rem;
+		width: 90%;
+	}
+
+	.card
+	{
+		height: 8rem;
+		font-size: 0.4rem;
+		width: 8rem;
+	}
+
+	.card a 
+	{
+		margin: 0.25rem 0.3rem;
+		width: 1.2rem;
+	}
+
+	.card h1 
+	{
+		font-size: 0.7rem;
+	}
+
+	.card img
+	{
+		max-height: 8rem;
+		max-width: 8rem;
+	}
+
+	nav .link {
+		padding: 0;
+	}
+
+	.navRight {
+		width: 100%;
+	}
+
+	.navLinks {
+		padding-inline-start: 0;
+	}
+	
+	.navLinks li, a{
+		float: none;
+	}
+
+	.skillDisplay
+	{
+		width: 70%;
+	}
+	
+	.skillHeader
+	{
+		font-size: 1.25rem;
+	}
+	
+	.staticIcon
+	{
+		margin: 1.5rem;
+		max-height: 45px;
+		max-width: 45px;
+	}
+
+	#contact
+	{
+		width: 77%;
+	}
+}
+
+@media screen and (max-width: 400px)
+{
+	footer {
+		padding: 0.5rem 0.25rem;
+	}
+
+	footer .link {
+		font-size: 0.8rem;
+	}
+
+	.bodyText 
+	{
+		font-size: 0.85rem;
+		width: 90%;
+	}
+
+	.card
+	{
+		height: 7rem;
+		font-size: 0.3rem;
+		width: 7rem;
+	}
+
+	.card a 
+	{
+		margin: 0.25rem 0.3rem;
+		width: 0.85rem;
+	}
+
+	.card h1 
+	{
+		font-size: 0.75rem;
+	}
+
+	.card img
+	{
+		max-height: 7rem;
+		max-width: 7rem;
+	}
+
+	nav .link {
+		padding: 0;
+	}
+
+	.navRight {
+		width: 100%;
+	}
+
+	.navLinks {
+		padding-inline-start: 0;
+	}
+	
+	.navLinks li, a{
+		float: none;
+	}
+
+	.skillDisplay
+	{
+		width: 70%;
+	}
+	
+	.skillHeader
+	{
+		font-size: 1.25rem;
+	}
+	
+	.staticIcon
+	{
+		margin: 1.5rem;
+		max-height: 32px;
+		max-width: 32px;
+	}
+
+	#contact
+	{
+		width: 77%;
+	}
+}
+
+@media screen and (max-width: 300px)
+{
+	footer {
+		padding: 0.5rem 0.25rem;
+	}
+
+	footer .link {
+		font-size: 0.8rem;
+	}
+
+	.bodyText 
+	{
+		font-size: 0.85rem;
+		width: 90%;
+	}
+
+	.card
+	{
+		height: 7rem;
+		font-size: 0.2rem;
+		width: 7rem;
+	}
+
+	.card a 
+	{
+		margin: 0.25rem 0.3rem;
+		width: 0.85rem;
+	}
+
+	.card h1 
+	{
+		font-size: 0.75rem;
+	}
+
+	.card img
+	{
+		max-height: 7rem;
+		max-width: 7rem;
+	}
+
+	nav .link {
+		padding: 0;
+	}
+
+	.navRight {
+		width: 100%;
+	}
+
+	.navLinks {
+		padding-inline-start: 0;
+	}
+	
+	.navLinks li, a{
+		float: none;
+	}
+
+	.skillDisplay
+	{
+		width: 70%;
+	}
+	
+	.skillHeader
+	{
+		font-size: 1.25rem;
+	}
+	
+	.staticIcon
+	{
+		margin: 1.5rem;
+		max-height: 32px;
+		max-width: 32px;
+	}
+
+	#contact
+	{
+		width: 77%;
+	}
+}
+

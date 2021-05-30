@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const name = "Michael";
+import App from "./components/App.jsx";
 
 ReactDOM.render(
-  <h1>Hi, I'm {name}!</h1>,
+  <App />,
   document.getElementById("root")
 );
 
